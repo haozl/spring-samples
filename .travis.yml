@@ -1,0 +1,6 @@
+language: java
+
+env:
+- SAMPLE_DIR=authentication
+
+script: cd $SAMPLE_DIR && mvn clean verify
